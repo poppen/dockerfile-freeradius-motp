@@ -1,0 +1,4 @@
+#
+ATTRIBUTE       Secret			960     string
+ATTRIBUTE       PIN    			961     string
+ATTRIBUTE       Offset		   	962     string

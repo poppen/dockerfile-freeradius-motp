@@ -1,0 +1,6 @@
+exec motp {
+	wait = yes
+	program = "/usr/local/bin/otpverify.sh %{User-Name} %{User-Password} %{reply:Secret} %{reply:PIN} %{reply:Offset}"
+	input_pairs = request
+	output_pairs = reply
+}
